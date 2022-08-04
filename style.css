@@ -1,15 +1,23 @@
 body {
-    background-color: blue; text-align: justify; 
+    background-color: rgb(142, 144, 86);
+    text-align: justify;
 }
 
 h1 {
-    color: red; text-align: center;
+    color: red;
+    text-align: center;
 }
 
 h2 {
-    color: dimgrey; text-align: center;
+    color: dimgrey;
+    text-align: center;
 }
 
 p {
     font-size: 30px;
+}
+
+span{
+    font-size: medium;
+    color: rgb(64, 75, 198)
 }
