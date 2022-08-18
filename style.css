@@ -16,6 +16,10 @@ h2 {
     margin: 50px;
 }
 
+h4{
+    color: blue;
+}
+
 p {
     font-size: 30px;
 }
@@ -34,4 +38,27 @@ span{
 #imagem2{
     border: 20px solid #5A4641;
     width: 50px;
+}
+
+.imagem{
+    width: 50px;
+    height: 30px;   
+}
+
+li::marker{
+    content: "\1F3AE";
+    color: black;
+    font-size: 30px;
+}
+
+.itens{
+    background-color: black;
+    color: red;
+}
+
+ul{
+    display: inline-block;
+    margin: 2%;
+    vertical-align: top;
+    list-style: none;
 }
